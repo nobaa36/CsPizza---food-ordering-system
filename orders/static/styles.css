@@ -1,0 +1,143 @@
+* {
+    font-size:1.2vw;
+    
+    //border:1px solid red;
+}
+body {
+    background-image: url('/static/pizza_background.jpeg');
+}
+#header {
+    height:30vh;
+}
+#home_icon {
+    width:1.2vw;
+    height:1.2vw;
+}
+#category a{
+    color:white;
+    background-color: transparent;
+}
+#category a:hover{
+    background-color: rgb(41, 41, 46,0.7);
+}
+#logo {
+    font-family: webLogo ;
+    text-shadow: 3px 3px 3px rgb(5, 87, 211);
+   
+}
+#logo a {
+    font-size:8vw;
+}
+#logo a:link, #place_order:link, #confirm_order:link {
+    color:rgb(28, 170, 253);}
+#logo a:visited, #place_order:visited, #confirm_order:visited {
+    color:rgb(28, 170, 253);
+}
+#logo a:hover, #place_order:hover, #confirm_order:hover {
+    color:rgb(28, 170, 253);   
+    text-decoration: none;
+}
+#logo a:active, #place_order:active, #confirm_order:active {
+    color:rgb(28, 170, 253);}
+@font-face {
+    font-family: webLogo;
+    src: url(Qwigley-Regular.ttf);
+}
+#center_box,#username {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+#center_box {
+    min-height: 100px;
+}
+th {
+    border-bottom: 1px solid white;
+}
+#checkout {
+    color:rgb(255, 255, 255);
+    display:block;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#continueShopping {
+    visibility: hidden;
+}
+#continueShopping:hover {
+    cursor: pointer;
+}
+
+caption {
+    font-size:2.5vw;
+}
+.plus {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+.plus:hover {
+    cursor: pointer;
+}
+#username {
+    position: absolute;
+    right: 0;
+}
+li {
+    list-style-type: none;
+}
+#place_order div:hover,#confirm_order div:hover{
+    box-shadow: 0px 0px 10px white;
+}
+#my_orders_container {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width:50vw;
+}
+#basket_icon {
+    visibility: hidden;
+    position: fixed;
+    top:0;
+    right:0;
+    width:10vw;
+    height:8.51vh;
+    background-color: rgb(245, 137, 37);
+    z-index: 9999;
+}
+#basket_icon img {
+    width:6vw;
+    height: 6vh;
+}
+#basket_icon {
+    cursor: pointer;
+}
+
+
+@media(max-width:576px){
+    * {
+      font-size: 4vw;
+    }
+    #home_icon {
+        width:4vw;
+        height:4vw;
+    }
+    #logo a {
+        font-size:16vw;
+    }
+    #category a{
+        font-weight: bold;
+        
+    }
+    #checkout {
+        display:none;
+    }
+    #username {
+        right: 10vw;
+    }
+    .plus {
+        width: 5vw;
+        height: 5vw;
+    }
+    caption {
+        font-size:7vw;
+    }
+    #my_orders_container {
+        width:100vw;
+    }
+}
