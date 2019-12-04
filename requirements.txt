@@ -5,7 +5,7 @@ cffi==1.11.5
 chardet==3.0.4
 click==6.7
 colorama==0.3.9
-Django==2.1.4
+Django==2.1.11
 dnspython==1.15.0
 email==6.0.0a1
 eventlet==0.24.1
