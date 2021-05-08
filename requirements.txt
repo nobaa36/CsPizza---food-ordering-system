@@ -8,7 +8,7 @@ colorama==0.3.9
 Django==2.1.4
 dnspython==1.15.0
 email==6.0.0a1
-eventlet==0.24.1
+eventlet==0.31.0
 Flask==1.0.2
 flask-paginate==0.5.1
 Flask-Session==0.3.1
